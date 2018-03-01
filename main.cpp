@@ -14,6 +14,7 @@ int main()
   {
     game.newGame(); 
     game.guessDoorC();
+    game.guessDoorC();
      if ( game.isWinner() == true )
         {
           wins++;
